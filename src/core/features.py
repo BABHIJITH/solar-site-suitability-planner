@@ -10,13 +10,9 @@ def calculate_slope(dem_path):
     return slope
 
 def extract_features(dem_path, solar_json_path=None):
-    """
-    Extract features with synthetic spatial solar irradiance gradient.
-    """
     slope = calculate_slope(dem_path)
     if solar_json_path:
         rows, cols = slope.shape
-        # Simulate spatial solar irradiance increasing west to east
         solar_array = np.tile(np.linspace(200, 300, cols), (rows, 1))
     else:
         print("Solar data not provided; using zeros.")
@@ -25,10 +21,6 @@ def extract_features(dem_path, solar_json_path=None):
     return features
 
 def extract_flat_features(dem_path, solar_json_path=None):
-    """
-    Return flattened feature DataFrame for ML training:
-    columns: row, col, slope, solar
-    """
     slope = calculate_slope(dem_path)
     if solar_json_path:
         rows, cols = slope.shape

@@ -29,9 +29,6 @@ def download_nasa_power(area_bbox, out_file='data/solar.json'):
         return None
 
 def load_dem(path='data/dem.tif'):
-    """
-    Check that DEM raster file exists locally.
-    """
     if os.path.exists(path):
         print(f"DEM file found at {path}")
         return path

@@ -14,9 +14,9 @@ def load_xgboost(model_path='models/xgb_model.joblib'):
     return joblib.load(model_path)
 
 def predict_suitability_xgb(model, X, grid_shape):
-    preds = model.predict_proba(X)[:, 1]  # probability of class 1
+    preds = model.predict_proba(X)[:, 1]  
     grid = preds.reshape(grid_shape)
-    return (grid - np.min(grid)) / (np.max(grid) - np.min(grid) + 1e-9)  # normalized 0-1
+    return (grid - np.min(grid)) / (np.max(grid) - np.min(grid) + 1e-9)  
 
 def simple_score(features):
     slope = features[..., 0]
