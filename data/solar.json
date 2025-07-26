@@ -1,0 +1,56 @@
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      76.0,
+      13.0,
+      874.11
+    ]
+  },
+  "properties": {
+    "parameter": {
+      "CLRSKY_SFC_SW_DWN": {
+        "JAN": 5.85,
+        "FEB": 6.58,
+        "MAR": 7.07,
+        "APR": 7.24,
+        "MAY": 7.19,
+        "JUN": 7.12,
+        "JUL": 7.03,
+        "AUG": 7.05,
+        "SEP": 6.9,
+        "OCT": 6.35,
+        "NOV": 5.82,
+        "DEC": 5.53,
+        "ANN": 6.64
+      }
+    }
+  },
+  "header": {
+    "title": "NASA/POWER Source Native Resolution Climatology Climatologies",
+    "api": {
+      "version": "v2.7.6",
+      "name": "POWER Climatology API"
+    },
+    "sources": [
+      "SYN1DEG"
+    ],
+    "fill_value": -999.0,
+    "time_standard": "LST",
+    "range": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+  },
+  "messages": [
+    "The requested parameters are retrieved from a pre-computed climatological period (January 2001 - December 2020)"
+  ],
+  "parameters": {
+    "CLRSKY_SFC_SW_DWN": {
+      "units": "kW-hr/m^2/day",
+      "longname": "Clear Sky Surface Shortwave Downward Irradiance"
+    }
+  },
+  "times": {
+    "data": 0.878,
+    "process": 0.05
+  }
+}

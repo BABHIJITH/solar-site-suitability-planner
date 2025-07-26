@@ -1,0 +1,14 @@
+numpy==1.24.3
+pandas==2.2.1
+
+geopandas==0.14.0
+shapely==2.0.1
+requests==2.31.0
+matplotlib==3.8.4
+folium==0.15.1
+scikit-learn==1.5.0
+seaborn==0.13.2
+xarray==2024.2.0
+netCDF4==1.6.5
+xgboost==2.0.3
+joblib==1.4.2
