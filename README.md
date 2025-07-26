@@ -28,7 +28,7 @@ Interactive Map Output	Generates an HTML map with intuitive color codes (Green: 
 Large Dataset Handling	Efficiently handles large DEM rasters with optimized visualization subsampling.
 
 📁 Project Structure
-text
+
 solar-site-suitability-planner/
 ├── data/                   # DEM files, downloaded datasets, generated maps
 ├── models/                 # Persisted machine learning models
