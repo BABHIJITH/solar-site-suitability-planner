@@ -117,7 +117,6 @@ Folium Python Tutorial
 📬 Contact
 For questions, feature requests, or contributions, please open an issue or pull request on GitHub, or contact:
 
-Your Name — [abhijithboddu@gmail.com]
+Abhijith Boddu — [abhijithboddu@gmail.com]
 GitHub: https://github.com/BABHIJITH
 
-Thank you for exploring sustainable energy solutions with this project!
